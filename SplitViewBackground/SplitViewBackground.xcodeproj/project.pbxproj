@@ -11,6 +11,7 @@
 		4BA729231F86DEC0003480CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA729221F86DEC0003480CC /* ViewController.swift */; };
 		4BA729251F86DEC0003480CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA729241F86DEC0003480CC /* Assets.xcassets */; };
 		4BA729281F86DEC0003480CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA729261F86DEC0003480CC /* Main.storyboard */; };
+		4BA729301F86DF67003480CC /* AspectFillImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7292F1F86DF67003480CC /* AspectFillImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4BA729241F86DEC0003480CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BA729271F86DEC0003480CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BA729291F86DEC0003480CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA7292F1F86DF67003480CC /* AspectFillImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AspectFillImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				4BA729241F86DEC0003480CC /* Assets.xcassets */,
 				4BA729261F86DEC0003480CC /* Main.storyboard */,
 				4BA729291F86DEC0003480CC /* Info.plist */,
+				4BA7292F1F86DF67003480CC /* AspectFillImageView.swift */,
 			);
 			path = SplitViewBackground;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BA729231F86DEC0003480CC /* ViewController.swift in Sources */,
+				4BA729301F86DF67003480CC /* AspectFillImageView.swift in Sources */,
 				4BA729211F86DEC0003480CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
