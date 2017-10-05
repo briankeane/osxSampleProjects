@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BDE15841F868F80002C475A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE15831F868F80002C475A /* AppDelegate.swift */; };
-		4BDE15861F868F80002C475A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE15851F868F80002C475A /* ViewController.swift */; };
-		4BDE15881F868F80002C475A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDE15871F868F80002C475A /* Assets.xcassets */; };
-		4BDE158B1F868F80002C475A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDE15891F868F80002C475A /* Main.storyboard */; };
-		4BDE15951F8695BD002C475A /* AspectFillImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE15941F8695BD002C475A /* AspectFillImageView.swift */; };
+		4BA729211F86DEC0003480CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA729201F86DEC0003480CC /* AppDelegate.swift */; };
+		4BA729231F86DEC0003480CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA729221F86DEC0003480CC /* ViewController.swift */; };
+		4BA729251F86DEC0003480CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA729241F86DEC0003480CC /* Assets.xcassets */; };
+		4BA729281F86DEC0003480CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA729261F86DEC0003480CC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4BDE15801F868F80002C475A /* BackgroundImageOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundImageOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BDE15831F868F80002C475A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4BDE15851F868F80002C475A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4BDE15871F868F80002C475A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4BDE158A1F868F80002C475A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4BDE158C1F868F80002C475A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BDE15941F8695BD002C475A /* AspectFillImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AspectFillImageView.swift; sourceTree = "<group>"; };
+		4BA7291D1F86DEC0003480CC /* SplitViewBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA729201F86DEC0003480CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BA729221F86DEC0003480CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BA729241F86DEC0003480CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BA729271F86DEC0003480CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BA729291F86DEC0003480CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4BDE157D1F868F80002C475A /* Frameworks */ = {
+		4BA7291A1F86DEC0003480CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,73 +33,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4BDE15771F868F80002C475A = {
+		4BA729141F86DEC0003480CC = {
 			isa = PBXGroup;
 			children = (
-				4BDE15821F868F80002C475A /* BackgroundImageOSX */,
-				4BDE15811F868F80002C475A /* Products */,
+				4BA7291F1F86DEC0003480CC /* SplitViewBackground */,
+				4BA7291E1F86DEC0003480CC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4BDE15811F868F80002C475A /* Products */ = {
+		4BA7291E1F86DEC0003480CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4BDE15801F868F80002C475A /* BackgroundImageOSX.app */,
+				4BA7291D1F86DEC0003480CC /* SplitViewBackground.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4BDE15821F868F80002C475A /* BackgroundImageOSX */ = {
+		4BA7291F1F86DEC0003480CC /* SplitViewBackground */ = {
 			isa = PBXGroup;
 			children = (
-				4BDE15831F868F80002C475A /* AppDelegate.swift */,
-				4BDE15851F868F80002C475A /* ViewController.swift */,
-				4BDE15871F868F80002C475A /* Assets.xcassets */,
-				4BDE15891F868F80002C475A /* Main.storyboard */,
-				4BDE15941F8695BD002C475A /* AspectFillImageView.swift */,
-				4BDE158C1F868F80002C475A /* Info.plist */,
+				4BA729201F86DEC0003480CC /* AppDelegate.swift */,
+				4BA729221F86DEC0003480CC /* ViewController.swift */,
+				4BA729241F86DEC0003480CC /* Assets.xcassets */,
+				4BA729261F86DEC0003480CC /* Main.storyboard */,
+				4BA729291F86DEC0003480CC /* Info.plist */,
 			);
-			path = BackgroundImageOSX;
+			path = SplitViewBackground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4BDE157F1F868F80002C475A /* BackgroundImageOSX */ = {
+		4BA7291C1F86DEC0003480CC /* SplitViewBackground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BDE158F1F868F80002C475A /* Build configuration list for PBXNativeTarget "BackgroundImageOSX" */;
+			buildConfigurationList = 4BA7292C1F86DEC0003480CC /* Build configuration list for PBXNativeTarget "SplitViewBackground" */;
 			buildPhases = (
-				4BDE157C1F868F80002C475A /* Sources */,
-				4BDE157D1F868F80002C475A /* Frameworks */,
-				4BDE157E1F868F80002C475A /* Resources */,
+				4BA729191F86DEC0003480CC /* Sources */,
+				4BA7291A1F86DEC0003480CC /* Frameworks */,
+				4BA7291B1F86DEC0003480CC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BackgroundImageOSX;
-			productName = BackgroundImageOSX;
-			productReference = 4BDE15801F868F80002C475A /* BackgroundImageOSX.app */;
+			name = SplitViewBackground;
+			productName = SplitViewBackground;
+			productReference = 4BA7291D1F86DEC0003480CC /* SplitViewBackground.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4BDE15781F868F80002C475A /* Project object */ = {
+		4BA729151F86DEC0003480CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Brian D Keane";
 				TargetAttributes = {
-					4BDE157F1F868F80002C475A = {
+					4BA7291C1F86DEC0003480CC = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = FSRSPV9N9Q;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 4BDE157B1F868F80002C475A /* Build configuration list for PBXProject "BackgroundImageOSX" */;
+			buildConfigurationList = 4BA729181F86DEC0003480CC /* Build configuration list for PBXProject "SplitViewBackground" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,46 +106,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 4BDE15771F868F80002C475A;
-			productRefGroup = 4BDE15811F868F80002C475A /* Products */;
+			mainGroup = 4BA729141F86DEC0003480CC;
+			productRefGroup = 4BA7291E1F86DEC0003480CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4BDE157F1F868F80002C475A /* BackgroundImageOSX */,
+				4BA7291C1F86DEC0003480CC /* SplitViewBackground */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4BDE157E1F868F80002C475A /* Resources */ = {
+		4BA7291B1F86DEC0003480CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BDE15881F868F80002C475A /* Assets.xcassets in Resources */,
-				4BDE158B1F868F80002C475A /* Main.storyboard in Resources */,
+				4BA729251F86DEC0003480CC /* Assets.xcassets in Resources */,
+				4BA729281F86DEC0003480CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BDE157C1F868F80002C475A /* Sources */ = {
+		4BA729191F86DEC0003480CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BDE15951F8695BD002C475A /* AspectFillImageView.swift in Sources */,
-				4BDE15861F868F80002C475A /* ViewController.swift in Sources */,
-				4BDE15841F868F80002C475A /* AppDelegate.swift in Sources */,
+				4BA729231F86DEC0003480CC /* ViewController.swift in Sources */,
+				4BA729211F86DEC0003480CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4BDE15891F868F80002C475A /* Main.storyboard */ = {
+		4BA729261F86DEC0003480CC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4BDE158A1F868F80002C475A /* Base */,
+				4BA729271F86DEC0003480CC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,7 +152,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4BDE158D1F868F80002C475A /* Debug */ = {
+		4BA7292A1F86DEC0003480CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +202,7 @@
 			};
 			name = Debug;
 		};
-		4BDE158E1F868F80002C475A /* Release */ = {
+		4BA7292B1F86DEC0003480CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,29 +244,29 @@
 			};
 			name = Release;
 		};
-		4BDE15901F868F80002C475A /* Debug */ = {
+		4BA7292D1F86DEC0003480CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FSRSPV9N9Q;
-				INFOPLIST_FILE = BackgroundImageOSX/Info.plist;
+				INFOPLIST_FILE = SplitViewBackground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fm.playola.BackgroundImageOSX;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.playola.SplitViewBackground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		4BDE15911F868F80002C475A /* Release */ = {
+		4BA7292E1F86DEC0003480CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FSRSPV9N9Q;
-				INFOPLIST_FILE = BackgroundImageOSX/Info.plist;
+				INFOPLIST_FILE = SplitViewBackground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fm.playola.BackgroundImageOSX;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.playola.SplitViewBackground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,24 +275,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4BDE157B1F868F80002C475A /* Build configuration list for PBXProject "BackgroundImageOSX" */ = {
+		4BA729181F86DEC0003480CC /* Build configuration list for PBXProject "SplitViewBackground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BDE158D1F868F80002C475A /* Debug */,
-				4BDE158E1F868F80002C475A /* Release */,
+				4BA7292A1F86DEC0003480CC /* Debug */,
+				4BA7292B1F86DEC0003480CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BDE158F1F868F80002C475A /* Build configuration list for PBXNativeTarget "BackgroundImageOSX" */ = {
+		4BA7292C1F86DEC0003480CC /* Build configuration list for PBXNativeTarget "SplitViewBackground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BDE15901F868F80002C475A /* Debug */,
-				4BDE15911F868F80002C475A /* Release */,
+				4BA7292D1F86DEC0003480CC /* Debug */,
+				4BA7292E1F86DEC0003480CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4BDE15781F868F80002C475A /* Project object */;
+	rootObject = 4BA729151F86DEC0003480CC /* Project object */;
 }
