@@ -709,10 +709,11 @@
         <scene sceneID="PAs-Fc-XRR">
             <objects>
                 <splitViewController id="3sk-pV-uRg" sceneMemberID="viewController">
-                    <containerView key="view" id="iA3-UY-tDR">
+                    <imageView key="view" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="WMF-MT-9tz">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </containerView>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ty" id="2R4-So-wFs"/>
+                    </imageView>
                     <splitViewItems>
                         <splitViewItem id="Y6N-uf-X9y"/>
                         <splitViewItem id="EhC-G5-UpN"/>
@@ -818,4 +819,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="ty" width="1382.4000244140625" height="921.5999755859375"/>
+    </resources>
 </document>
