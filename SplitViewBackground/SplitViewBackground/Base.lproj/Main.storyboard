@@ -709,7 +709,7 @@
         <scene sceneID="PAs-Fc-XRR">
             <objects>
                 <splitViewController id="3sk-pV-uRg" sceneMemberID="viewController">
-                    <imageView key="view" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="WMF-MT-9tz">
+                    <imageView key="view" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="WMF-MT-9tz" customClass="AspectFillImageView" customModule="SplitViewBackground" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ty" id="2R4-So-wFs"/>

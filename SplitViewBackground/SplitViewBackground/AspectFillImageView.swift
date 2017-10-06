@@ -60,7 +60,8 @@ class AspectFillImageView: NSImageView {
             self.overlay!.wantsLayer = true
             self.overlay!.layer = viewLayer
             
-            self.addSubview(overlay!)
+            self.addSubview(overlay!, positioned: NSWindowOrderingMode.below, relativeTo: nil)
+//            self.addSubview(overlay!)
             self.overlay!.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 1.0).isActive = true
             self.overlay!.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 1.0).isActive = true
         }
